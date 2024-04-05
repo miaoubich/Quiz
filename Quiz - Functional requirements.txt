@@ -1,0 +1,6 @@
+Tast 1.1: Functional requirements
+1. Search through the contacts.
+2. Add new contacts
+3. Update existing contacts.
+4. Delete old contacts.
+5. Merger duplicate contacts
