@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Address {
+public class Phone {
 	
 	@Expose
-	private int addressId;
+	private int phoneId;
 	@Expose
 	private String phoneNumber;
 	@Expose

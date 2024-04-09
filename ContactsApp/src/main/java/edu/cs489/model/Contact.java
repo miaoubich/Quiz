@@ -28,7 +28,7 @@ public class Contact {
 	@Expose
 	private String jobTitle;
 	@Expose
-	private List<Address> addresses;
+	private List<Phone> addresses;
 	@Expose
 	private List<Email> emails;
 	
@@ -51,7 +51,7 @@ public class Contact {
 	
 	public void printJson(List<Contact> contacts) {
 		Gson gson = new GsonBuilder().setPrettyPrinting()
-	            .excludeFieldsWithoutExposeAnnotation()
+	            //.excludeFieldsWithoutExposeAnnotation()
 	            .create();
         String jsonEmployees = gson.toJson(contacts);
         
